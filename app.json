@@ -18,7 +18,7 @@
       "required": true,
       "name": "API-Key",
       "description": "An API Key with access to the given installation.",
-      "type": "string"
+      "type": "text"
     }
   },
   "guide": [
