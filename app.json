@@ -1,0 +1,36 @@
+{
+  "author": "IoT Open",
+  "license": "MIT",
+  "input": {
+    "devices": {
+      "required": true,
+      "name": "Devices",
+      "description": "These devices and their functions will be mirrored on the given installation",
+      "type": "multi_device_selector"
+    },
+    "target_installation": {
+      "required": true,
+      "name": "Installation",
+      "description": "The devices and their functions will be mirrored on this installation",
+      "type": "number"
+    },
+    "api_key": {
+      "required": true,
+      "name": "API-Key",
+      "description": "An API Key with access to the given installation.",
+      "type": "string"
+    }
+  },
+  "guide": [
+    {
+      "id": "stage_1",
+      "title": "Configuration",
+      "description": "",
+      "input_fields": [
+        "api_key",
+        "target_installation",
+        "devices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "category": "share",
+  "description": "# Data share\n\nMirrors selected devices and their associated functions to another installation with help of a user-supplied api token",
+  "name": "Data share",
+  "public": true,
+  "publisher": {
+    "id": 1
+  },
+  "short_description": "Share selected devices and their functions to another installation",
+  "source_url": "",
+  "tags": [
+    "share",
+    "mirror",
+    "sync"
+  ]
+}

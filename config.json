@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "app_id": 1,
+  "installation_id": 1,
+  "version": "1.0.0",
+  "config": {
+    "api_key": "xxx",
+    "target_installation": 341,
+    "devices": [12074,12104,12107]
+  },
+  "name": "Data share"
+}
