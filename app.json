@@ -5,13 +5,13 @@
     "devices": {
       "required": true,
       "name": "Devices",
-      "description": "These devices and their functions will be mirrored on the given installation",
+      "description": "These devices and their functions will be mirrored on the given installation.",
       "type": "multi_device_selector"
     },
     "target_installation": {
       "required": true,
-      "name": "Installation",
-      "description": "The devices and their functions will be mirrored on this installation",
+      "name": "Target Installation",
+      "description": "The devices and their functions will be mirrored on this installation. Please provide the installation ID.",
       "type": "number"
     },
     "api_key": {
@@ -25,7 +25,7 @@
     {
       "id": "stage_1",
       "title": "Configuration",
-      "description": "",
+      "description": "The devices selected here will be mirrored on the target installation. The API Key must have access to the target installation.",
       "input_fields": [
         "api_key",
         "target_installation",
